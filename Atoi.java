@@ -1,4 +1,4 @@
-class Solution {
+class Atoi {
     public int myAtoi(String s) {
        int res = 0;
        Boolean negative = false;
@@ -26,4 +26,4 @@ class Solution {
     
        return negative ? -res : res;
     }
-}
+}   
