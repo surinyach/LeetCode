@@ -9,8 +9,6 @@ class Solution(object):
                         return False
                     else:
                         numbers[num] = 1
-        if ini_col == 3 and end_col == 3:
-            print(numbers)
         return True
 
     def isValidSudoku(self, board):
